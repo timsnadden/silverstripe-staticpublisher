@@ -83,7 +83,7 @@ abstract class StaticPublisher extends DataExtension {
 	 * @return boolean
 	 */
 	public static function echo_progress() {
-		Deprecation::notice('1.0', 'Use the new config system. SSViewer.static_publisher_theme');
+		Deprecation::notice('1.0', 'Use the new config system. SSViewer.echo_progress');
 
 		return Config::inst()->get('StaticPublisher', 'echo_progress');
 	}
@@ -93,7 +93,7 @@ abstract class StaticPublisher extends DataExtension {
 	 *
 	 */
 	public static function set_echo_progress($progress) {
-		Deprecation::notice('1.0', 'Use the new config system. SSViewer.static_publisher_theme');
+		Deprecation::notice('1.0', 'Use the new config system. SSViewer.echo_progress');
 
 		Config::inst()->get('StaticPublisher', 'echo_progress', $progress);
 	}
