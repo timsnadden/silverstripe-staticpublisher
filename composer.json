@@ -11,6 +11,6 @@
 		"email": "sam@silverstripe.com"
 	}],
 	"require": {
-		"silverstripe/framework": "~3.1"
+		"silverstripe/framework": "~5.3"
 	}
 }
